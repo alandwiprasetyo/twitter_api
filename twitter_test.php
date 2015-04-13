@@ -2,10 +2,10 @@
 
 require('twitteroauth.php'); // path to twitteroauth library
 
-$consumer_key = 'TP3yZbRZQo0JCCHvsb6FTghv3';
-$consumer_secret = '34j3V0305XnmxdidzpEBL5S7tneVLXbFjTfzfgar56fz95yjvS';
-$access_token = '209954750-76kyzO50TghHt6lZ1tIDDJwMUZkceuTf5xlrjJlC';
-$access_token_secret = 'iKlHIBYn2JlDdGztDA57qnpHfveFHSDMZQGJOxag7ut92';
+$consumer_key = '';
+$consumer_secret = '';
+$access_token = '';
+$access_token_secret = '';
 
 $twitter = new TwitterOAuth($consumer_key,$consumer_secret,$access_token, $access_token_secret);
 
