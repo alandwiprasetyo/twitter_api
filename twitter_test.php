@@ -13,7 +13,7 @@ $twitter = new TwitterOAuth($consumer_key,$consumer_secret,$access_token, $acces
 
 $tweets = $twitter->get("https://api.twitter.com/1.1/search/tweets.json?q=%23freebandnames&count=10");
 
-echo "<h1>HASIL</h1><br>";
+echo "<h1>HASIL PARSING</h1><br>";
 foreach ($tweets->statuses as $tweet) {
 
 	// TRICK : Melihat isi sebuah tweet
